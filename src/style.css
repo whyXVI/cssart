@@ -1,0 +1,13 @@
+/* main.css 或 App.vue 的全局样式 */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* 防止意外的水平滚动 */
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
