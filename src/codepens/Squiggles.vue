@@ -117,6 +117,9 @@ onMounted(() => {
   // Register GSAP plugins
   gsap.registerPlugin(DrawSVGPlugin, MotionPathPlugin)
   
+  // Ensure elements are available
+  if (!pathElement.value || !penElement.value) return
+  
   // Create timeline for better control
   timeline = gsap.timeline()
   
