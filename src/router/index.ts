@@ -8,6 +8,11 @@ const router = createRouter({
       redirect: '/codepen',
     },
     {
+      path: '/vibe',
+      name: 'VibeExplorer',
+      component: () => import('@/components/VibeExplorer.vue'),
+    },
+    {
         path: '/codepen',
         name: 'CodePen',
         component: () => import('@/views/CodePen.vue'),
