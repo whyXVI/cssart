@@ -5,7 +5,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/codepen',
+      redirect: '/vibe',
     },
     {
       path: '/vibe',
